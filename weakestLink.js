@@ -133,7 +133,7 @@ function AddNamePlayers() {
         const NewP = document.createElement('p');
         intro.style.width = '';
         input.placeholder = `Speler ${speler.id}`
-        input.addEventListener('change', () => { saveNames });
+        input.addEventListener('change', () => { saveNames() });
         intro.appendChild(NewP)
         intro.appendChild(input)
 
