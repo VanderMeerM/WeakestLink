@@ -1,0 +1,249 @@
+header, body, footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    color: white;
+    background: url("./weakestlink_background.JPG");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    max-height: 700px;
+          
+}
+
+select, button, input, p, a {
+         margin: 10px;
+  }
+
+    
+button {
+       background-color: blue;
+       color: white;
+       display: block;
+       width: 110px;
+   }
+
+   
+#evaluation li, li {
+    list-style-type: none;
+   
+}
+
+#votedAway button,
+#startClock, #evaluate,
+#playerPanelEvaluation, 
+#bedrag {
+    display: inline-block;
+}
+
+#startClock {
+    margin-top: 20px;
+}
+
+#evaluate {
+    margin-top: 30px;
+}
+
+#bedrag {
+    margin-top: 140px;
+    margin-left: 20px;
+    font-size: x-large;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+#ronde, #bank, 
+#corrTotalAmount,
+#changeBankTotal, 
+#startgame, .wrap
+ { 
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+#corrTotalAmount #changeBankTotal {
+    display: inline;
+} 
+
+#changeBankTotal {
+color: yellow;
+font-size: 20px;
+margin-left: 20px;
+}
+
+#startgame {
+    margin: 10px auto;
+}
+
+#ronde {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+#corrTotalAmount {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#playerPanelEvaluation {
+    margin: 0 auto;
+    width: 1300px;
+    height: 450px;
+}
+
+#time, #chain {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    font-size: x-large;
+ }
+
+ #chain {
+     top: 180px
+ }
+
+
+ #finalresult {
+    display: block;
+    font-size: 20px;
+}
+
+.stylePanel {
+    opacity: 0.75;
+    width: 120px;
+    height: 180px;
+    display: inline-block;
+    border: white 1px solid;
+    padding: 5px;
+    margin: 6px; 
+}
+
+
+.stylePanel_highlighted {
+    border: white 3px solid;
+    margin: 2px;
+    opacity: 1;
+}
+
+.unvisible {
+    visibility: hidden;
+}
+
+#votedAway {
+font-size: x-large;
+ }
+    
+#bankinronde {
+    font-size: 45px;
+    margin-left: 30px;
+}
+
+footer #bankinronde,
+footer #time
+ {
+    display: inline-block;
+    
+}
+
+#goodbye {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    z-index: 10;
+    font-size: 80px;
+   
+}
+
+#scrolltotop {
+    visibility: hidden;
+}
+
+
+/* Finaleronde */
+
+div {
+    display: inline-block;
+    margin: 10px;
+ }
+
+.right,
+.left {
+  height: 70px;
+  width: 35px;
+}
+
+
+.right {
+  margin-left: -2px;
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+.left {
+  margin-right: -2px;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+}
+
+
+@media (max-width: 1600px) {
+    #bedrag {
+        margin-top: 20px;
+    }
+    #bankinronde {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 1500px) {
+
+    body {
+        background-color: blue;
+        background-repeat: repeat;
+    }
+
+     #ronde {
+        text-align: center;
+    }
+
+   
+#playerPanelEvaluation {
+   width: 800px;
+   margin: 20px;
+ }
+
+
+#bankinronde {
+    font-size: 30px;
+}
+
+#startplayer {
+    font-size: 10px;
+}}
+
+@media (min-width: 1500px) and (max-width: 1100px) {
+    #playerPanelEvaluation {
+        width: 800px;
+        margin: 20px;
+      }
+}
+
+@media (max-width: 600px) {
+    #scrolltotop {
+        visibility: visible;
+    }
+
+    .left, .right {
+        height: 50px;
+        width: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #goodbye {
+        font-size: 30px;
+    }
+}
+
